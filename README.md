@@ -10,7 +10,7 @@ This project was developed for the **Hard and Soft 2026 International Competitio
 
 **Competition Website**: https://www.hardandsoft.ro/
 
-**Topic Presentation**: See `H&S_Suceava_2026_topic_presentation_v2.pdf` for the original contest topic and requirements.
+**Topic Presentation**: See [`H&S_Suceava_2026_topic_presentation_v2.pdf`](H&S_Suceava_2026_topic_presentation_v2.pdf) for the original contest topic and requirements.
 
 ### Team
 
@@ -19,10 +19,10 @@ This project was developed for the **Hard and Soft 2026 International Competitio
 **Institution**: Politehnica University of Timișoara
 
 **Team Members**:
-- [Member 1 Name]
-- [Member 2 Name]
-- [Member 3 Name]
-- [Member 4 Name]
+- COSTA Alecsandru
+- PANDELE Bogdan
+- PINTEA Vlad
+- MICEA Christian - Me
 
 ## Project Overview
 
@@ -135,7 +135,7 @@ Suceava_H&S/
 
 ### Dependencies
 
-The project uses the following PlatformIO libraries (defined in `platformio.ini`):
+The project uses the following PlatformIO libraries (defined in [`platformio.ini`](firmware/platformio.ini)):
 - `adafruit/Adafruit BusIO @ ^1.16.0`
 - `adafruit/Adafruit GFX Library @ ^1.11.10`
 - `adafruit/Adafruit SSD1306 @ ^2.5.11`
@@ -213,32 +213,32 @@ The `app-suite/` directory contains three components:
 ### Backend API
 Spring Boot REST API server that receives, stores, and serves telemetry data.
 
-**Documentation**: See `app-suite/backend/COMPONENT.md`
+**Documentation**: See [`app-suite/backend/COMPONENT.md`](app-suite/backend/COMPONENT.md)
 
 **Database**: PostgreSQL (schema in `init.sql`)
 
 ### BLE Receiver
 Flutter app that receives data from ESP32 via BLE and forwards to the backend API.
 
-**Documentation**: See `app-suite/ble_receiver/COMPONENT.md`
+**Documentation**: See [`app-suite/ble_receiver/COMPONENT.md`](app-suite/ble_receiver/COMPONENT.md)
 
 ### Data Monitor
 Flutter app for caregivers to visualize real-time telemetry data and receive emergency alerts.
 
-**Documentation**: See `app-suite/data_monitor/COMPONENT.md`
+**Documentation**: See [`app-suite/data_monitor/COMPONENT.md`](app-suite/data_monitor/COMPONENT.md)
 
-**API Documentation**: See `app-suite/telemetry_api.md`
+**API Documentation**: See [`app-suite/telemetry_api.md`](app-suite/telemetry_api.md)
 
 ## Documentation
 
 ### Competition Deliverables
-- `final_documentation/FORCE_documentation.pdf` - Final project documentation
-- `final_documentation/Timisoara1_FORCE_Design_Document.pdf` - Design document (day 3 of competition)
+- [`final_documentation/FORCE_documentation.pdf`](final_documentation/FORCE_documentation.pdf) - Final project documentation
+- [`final_documentation/Timisoara1_FORCE_Design_Document.pdf`](final_documentation/Timisoara1_FORCE_Design_Document.pdf) - Design document (day 3 of competition)
 
 ### Component Documentation
-- `app-suite/backend/COMPONENT.md` - Backend API documentation
-- `app-suite/ble_receiver/COMPONENT.md` - BLE receiver documentation
-- `app-suite/data_monitor/COMPONENT.md` - Data monitor documentation
+- [`app-suite/backend/COMPONENT.md`](app-suite/backend/COMPONENT.md) - Backend API documentation
+- [`app-suite/ble_receiver/COMPONENT.md`](app-suite/ble_receiver/COMPONENT.md) - BLE receiver documentation
+- [`app-suite/data_monitor/COMPONENT.md`](app-suite/data_monitor/COMPONENT.md) - Data monitor documentation
 
 ## Archive and Experiments
 
