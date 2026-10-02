@@ -21,7 +21,7 @@ This project was developed for the **Hard and Soft 2026 International Competitio
 **Team Members**:
 - COSTA Alecsandru
 - PANDELE Bogdan
-- PINTEA Vlad
+- PINTEA Vlad - https://github.com/pinteavlad1
 - MICEA Christian - Me
 
 ## Project Overview
