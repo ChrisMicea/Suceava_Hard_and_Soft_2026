@@ -1,0 +1,232 @@
+// #include "fall_detection.h"
+
+// // ── Gate 0 Internal State ─────────────────────────────────────
+// namespace Gate0
+// {
+//     // Current armed state of the fall detection pipeline.
+//     static bool armed = false;
+
+//     // Timestamp when the current on-body streak started (ms).
+//     // Reset to 0 whenever contact is lost.
+//     static uint32_t onBodySince = 0;
+
+//     // Timestamp when the current off-body / failure streak started (ms).
+//     // Reset to 0 whenever valid contact is restored.
+//     static uint32_t offBodySince = 0;
+
+//     // Set by the fall pipeline when a fall event is in progress.
+//     // While true, disarming is blocked regardless of sensor readings.
+//     static bool fallEventInProgress = false;
+
+//     // ── Internal: Evaluate whether current readings are on-body ──
+//     // Returns true only when the bio hub is online, status is finger-
+//     // detected (3), and confidence meets the minimum threshold.
+//     static bool _isOnBodyNow()
+//     {
+//         if (!bioHubReady)
+//             return false;
+//         if (body.status != 3)
+//             return false;
+//         if (body.confidence < GATE0_MIN_CONFIDENCE)
+//             return false;
+//         return true;
+//     }
+
+// } // namespace Gate0
+
+// // ── Gate 0: Notify that a fall event has started ──────────────
+// // Called by Stage 1 of the fall pipeline the moment pre-impact
+// // motion is confirmed. Blocks disarming for the duration.
+// void gate0_notifyFallEventStarted()
+// {
+//     Gate0::fallEventInProgress = true;
+// }
+
+// // ── Gate 0: Notify that a fall event has resolved ─────────────
+// // Called when the fall pipeline fully resolves — either an alert
+// // was sent, the user self-cancelled, or the event timed out.
+// // Re-enables normal arming/disarming evaluation.
+// void gate0_notifyFallEventResolved()
+// {
+//     Gate0::fallEventInProgress = false;
+
+//     // Re-seed the off-body timer from now so the full disarm window
+//     // must elapse fresh after the event, rather than using a stale
+//     // timestamp that may have accumulated during the event.
+//     Gate0::offBodySince = millis();
+// }
+
+// // ── Gate 0: Main update — call from the task scheduler ────────
+// // Expected call rate: same cadence as readBioHub() (every 200 ms)
+// // so that every new bio hub reading is evaluated promptly.
+// void updateGate0()
+// {
+//     uint32_t now = millis();
+//     bool onBody = Gate0::_isOnBodyNow();
+
+//     if (onBody)
+//     {
+//         // Valid contact: reset the off-body streak timer.
+//         Gate0::offBodySince = 0;
+
+//         if (!Gate0::armed)
+//         {
+//             // Start or continue accumulating the arming window.
+//             if (Gate0::onBodySince == 0)
+//             {
+//                 Serial.println("[Gate0] On-body contact detected — starting arming timer.");
+//                 Gate0::onBodySince = now;
+//             }
+
+//             if (now - Gate0::onBodySince >= GATE0_ARM_WINDOW_MS)
+//             {
+//                 Gate0::armed = true;
+//                 Serial.println("[Gate0] ARMED — sustained on-body contact confirmed.");
+//             }
+//         }
+//         // If already armed, nothing to do — stay armed.
+//     }
+//     else
+//     {
+//         // No valid contact: reset the on-body streak timer.
+//         Gate0::onBodySince = 0;
+
+//         if (Gate0::armed)
+//         {
+//             // Disarming is blocked while a fall event is in progress.
+//             if (Gate0::fallEventInProgress)
+//                 return;
+
+//             // Start or continue accumulating the disarm window.
+//             if (Gate0::offBodySince == 0)
+//             {
+//                 Gate0::offBodySince = now;
+//             }
+
+//             if (now - Gate0::offBodySince >= GATE0_DISARM_WINDOW_MS)
+//             {
+//                 Gate0::armed = false;
+//                 Gate0::offBodySince = 0;
+//                 Serial.println("[Gate0] DISARMED — sustained off-body / sensor failure.");
+//             }
+//         }
+//         // If already disarmed, nothing to do — stay disarmed.
+//     }
+// }
+
+// // ── Gate 0: Public status queries ─────────────────────────────
+
+// // Returns true when fall detection is armed and the pipeline
+// // stages (1–5) are permitted to run.
+// bool gate0_isArmed()
+// {
+//     return Gate0::armed;
+// }
+
+// // Returns true when the device is currently reading valid on-body
+// // contact (irrespective of armed state). Useful for the display
+// // to show a "NO CONTACT" warning when disarmed.
+// bool gate0_isOnBody()
+// {
+//     return Gate0::_isOnBodyNow();
+// }
+
+// // Returns the number of milliseconds remaining until Gate 0 arms,
+// // or 0 if already armed. Useful for a progress indicator on the
+// // display during the initial wear-on window.
+// uint32_t gate0_msUntilArmed()
+// {
+//     if (Gate0::armed)
+//         return 0;
+//     if (Gate0::onBodySince == 0)
+//         return GATE0_ARM_WINDOW_MS;
+//     uint32_t elapsed = millis() - Gate0::onBodySince;
+//     if (elapsed >= GATE0_ARM_WINDOW_MS)
+//         return 0;
+//     return GATE0_ARM_WINDOW_MS - elapsed;
+// }
+
+// // ══════════════════════════════════════════════════════════════
+// // FALL DETECTION LOGIC USING IMU DATA
+// // ══════════════════════════════════════════════════════════════
+
+// void evaluateFall() {
+//   if (isFalling()) {
+//     Serial.println("Fall Detected! YES");
+//     // Additional logic for fall response can be added here
+//   }
+//   else {
+//     Serial.println("No fall detected. NO");
+//   }
+// }
+
+// // Evaluates the sliding window queue to detect a sequential Free Fall + Impact pattern.
+// bool isFalling() {
+//   // We need a decent window size to capture the progression of a fall (at least 8-10 samples)
+//   if (accelDataQueue.size() < 8) {
+//     return false; 
+//   }
+
+//   // Tracking variables to find extremes across the window
+//   float minMagnitude = 999999.0f;
+//   float maxMagnitude = 0.0f;
+  
+//   // Indices to keep track of *when* the extremes happened relative to each other
+//   int minIndex = -1;
+//   int maxIndex = -1;
+//   int currentIndex = 0;
+
+//   std::queue<IMUData> tempQueue = accelDataQueue; // Make a copy to preserve original data
+
+//   while (!tempQueue.empty()) {
+//     IMUData data = tempQueue.front();
+//     tempQueue.pop();
+
+//     // Serial.printf("Evaluating IMU Data -> AX: %d AY: %d AZ: %d\n", data.ax, data.ay, data.az);
+    
+//     // Calculate magnitude for the current frame
+//     float accelMagnitude = sqrt((float)data.ax * data.ax + (float)data.ay * data.ay + (float)data.az * data.az);
+//     // Serial.printf("Current Accel Magnitude: %.2f\n", accelMagnitude);
+
+//     // Track the absolute minimum magnitude (Free Fall point)
+//     if (accelMagnitude < minMagnitude) {
+//       minMagnitude = accelMagnitude;
+//       minIndex = currentIndex;
+//     }
+
+//     // Track the absolute maximum magnitude (Impact point)
+//     if (accelMagnitude > maxMagnitude) {
+//       maxMagnitude = accelMagnitude;
+//       maxIndex = currentIndex;
+//     }
+
+//     currentIndex++;
+//   }
+
+//   Serial.printf("--- Window Summary ---\n");
+//   Serial.printf("Min Magnitude Found: %.2f at index %d\n", minMagnitude, minIndex);
+//   Serial.printf("Max Magnitude Found: %.2f at index %d\n", maxMagnitude, maxIndex);
+
+//   // --- CRITERIA THRESHOLDS ---
+//   // Based on your 1g baseline (~16,500 to ~17,500 units):
+//   // 1. Free Fall: Weightless drop below ~0.3g (under 2000 units). Your data dipped to 1875.
+//   const float FREE_FALL_THRESHOLD = 2000.0f; 
+  
+//   // 2. Impact: A violent spike above ~1.8g (greater than 10000 units) when hitting the floor.
+//   const float IMPACT_THRESHOLD = 10000.0f;
+
+//   // --- PATTERN VALIDATION ---
+//   bool freeFallDetected = (minMagnitude < FREE_FALL_THRESHOLD);
+//   bool impactDetected   = (maxMagnitude > IMPACT_THRESHOLD);
+  
+//   // Chronological check: The weightless free fall MUST happen BEFORE the impact crash.
+//   bool correctSequence  = (minIndex < maxIndex);
+
+//   if (freeFallDetected && impactDetected && correctSequence) {
+//     Serial.println("Fall Detection -> Falling: YES");
+//     return true;
+//   }
+
+//   Serial.println("Fall Detection -> Falling: NO");
+//   return false;
+// }

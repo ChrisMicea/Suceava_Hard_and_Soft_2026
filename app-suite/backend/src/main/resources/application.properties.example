@@ -1,0 +1,19 @@
+spring.application.name=backend
+
+# DataSource Configuration
+spring.datasource.url=jdbc:postgresql://localhost:5432/telemetry_db
+spring.datasource.username=telemetry_user
+spring.datasource.password=YOUR_DATABASE_PASSWORD
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# JPA Configuration
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=false
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.properties.hibernate.format_sql=true
+
+# Server Configuration
+server.port=8080
+
+# API Configuration
+api.auth.token=YOUR_SECURE_TOKEN

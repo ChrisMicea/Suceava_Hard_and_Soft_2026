@@ -1,0 +1,25 @@
+# ── Various artefacts from and for writing the documentation ─────
+documentation_resources/
+
+# ── OS generated files ───────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ── IDE files ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── Build artifacts (general) ─────────────────────────────────────
+*.o
+*.a
+*.elf
+*.bin
+*.hex

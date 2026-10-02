@@ -1,0 +1,44 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: telemetry_postgres
+    environment:
+      POSTGRES_DB: telemetry_db
+      POSTGRES_USER: telemetry_user
+      POSTGRES_PASSWORD: telemetry_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U telemetry_user -d telemetry_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - telemetry_network
+
+  app:
+    build: .
+    container_name: telemetry_app
+    ports:
+      - "8080:8080"
+    environment:
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/telemetry_db
+      SPRING_DATASOURCE_USERNAME: telemetry_user
+      SPRING_DATASOURCE_PASSWORD: telemetry_password
+      API_AUTH_TOKEN: esp32_static_token_12345
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - telemetry_network
+
+volumes:
+  postgres_data:
+
+networks:
+  telemetry_network:

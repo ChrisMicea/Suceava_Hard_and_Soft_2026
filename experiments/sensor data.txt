@@ -1,0 +1,301 @@
+--- Sensor Readout ---
+Infrared LED counts: 128288
+Red LED counts:      145502
+Heartrate:           0
+Blood Oxygen (SpO2): 0
+Signal Confidence:   0%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128556
+Red LED counts:      145801
+Heartrate:           95
+Blood Oxygen (SpO2): 78
+Signal Confidence:   99%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128795
+Red LED counts:      146083
+Heartrate:           95
+Blood Oxygen (SpO2): 78
+Signal Confidence:   99%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128791
+Red LED counts:      146078
+Heartrate:           95
+Blood Oxygen (SpO2): 78
+Signal Confidence:   99%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128616
+Red LED counts:      145802
+Heartrate:           0
+Blood Oxygen (SpO2): 78
+Signal Confidence:   0%
+Status Code:         3
+
+
+
+
+=========================================================
+
+
+
+
+--- Sensor Readout ---
+Infrared LED counts: 128934
+Red LED counts:      145956
+Heartrate:           80
+Blood Oxygen (SpO2): 0
+Signal Confidence:   51%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128226
+Red LED counts:      145141
+Heartrate:           80
+Blood Oxygen (SpO2): 0
+Signal Confidence:   51%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128787
+Red LED counts:      145697
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128815
+Red LED counts:      145670
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128831
+Red LED counts:      145676
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 129091
+Red LED counts:      145941
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 129054
+Red LED counts:      145866
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 129055
+Red LED counts:      145864
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128985
+Red LED counts:      145743
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128848
+Red LED counts:      145562
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128647
+Red LED counts:      145303
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128648
+Red LED counts:      145306
+Heartrate:           100
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 128666
+Red LED counts:      145272
+Heartrate:           0
+Blood Oxygen (SpO2): 0
+Signal Confidence:   0%
+Status Code:         3
+
+
+
+===============================================
+
+
+
+--- Sensor Readout ---
+Infrared LED counts: 119890
+Red LED counts:      134400
+Heartrate:           0
+Blood Oxygen (SpO2): 0
+Signal Confidence:   0%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119910
+Red LED counts:      134419
+Heartrate:           106
+Blood Oxygen (SpO2): 75
+Signal Confidence:   98%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119919
+Red LED counts:      134424
+Heartrate:           106
+Blood Oxygen (SpO2): 75
+Signal Confidence:   98%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 120046
+Red LED counts:      134558
+Heartrate:           0
+Blood Oxygen (SpO2): 75
+Signal Confidence:   0%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 120140
+Red LED counts:      134622
+Heartrate:           107
+Blood Oxygen (SpO2): 75
+Signal Confidence:   97%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 120119
+Red LED counts:      134613
+Heartrate:           107
+Blood Oxygen (SpO2): 75
+Signal Confidence:   97%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 120093
+Red LED counts:      134532
+Heartrate:           107
+Blood Oxygen (SpO2): 75
+Signal Confidence:   97%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 120015
+Red LED counts:      134406
+Heartrate:           108
+Blood Oxygen (SpO2): 74
+Signal Confidence:   96%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119787
+Red LED counts:      134114
+Heartrate:           108
+Blood Oxygen (SpO2): 74
+Signal Confidence:   96%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119823
+Red LED counts:      134152
+Heartrate:           108
+Blood Oxygen (SpO2): 74
+Signal Confidence:   96%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119769
+Red LED counts:      134079
+Heartrate:           110
+Blood Oxygen (SpO2): 74
+Signal Confidence:   96%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119732
+Red LED counts:      134007
+Heartrate:           110
+Blood Oxygen (SpO2): 74
+Signal Confidence:   96%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119728
+Red LED counts:      133979
+Heartrate:           0
+Blood Oxygen (SpO2): 75
+Signal Confidence:   0%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119728
+Red LED counts:      133979
+Heartrate:           0
+Blood Oxygen (SpO2): 75
+Signal Confidence:   0%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119704
+Red LED counts:      133940
+Heartrate:           112
+Blood Oxygen (SpO2): 75
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 119627
+Red LED counts:      133835
+Heartrate:           112
+Blood Oxygen (SpO2): 75
+Signal Confidence:   95%
+Status Code:         3
+
+--- Sensor Readout ---
+Infrared LED counts: 3862
+Red LED counts:      3414
+Heartrate:           112
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         0
+
+--- Sensor Readout ---
+Infrared LED counts: 191
+Red LED counts:      10
+Heartrate:           112
+Blood Oxygen (SpO2): 0
+Signal Confidence:   95%
+Status Code:         0

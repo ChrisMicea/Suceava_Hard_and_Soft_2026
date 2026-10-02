@@ -1,0 +1,528 @@
+--- fall 1: undetected
+
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:0.07 AY:-0.05 AZ:-1.08 | GX:15.5 GY:4.0 GZ:-28.2
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.01 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4235@30  maxA=5187@9  maxG=729@47  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 5
+Touch Read: 4
+IMU -> AX:0.09 AY:-0.04 AZ:-1.11 | GX:34.8 GY:6.2 GZ:-11.4
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.01 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4235@2  maxA=5098@38  maxG=932@42  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 3
+Touch Read: 5
+IMU -> AX:0.43 AY:-0.02 AZ:-1.02 | GX:73.2 GY:25.5 GZ:-168.8
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4264@13  maxA=5127@54  maxG=5970@57  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.63 AY:-0.97 AZ:1.55 | GX:-14.5 GY:-7.6 GZ:108.7
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4326@30  maxA=15906@55  maxG=5970@27  | FF=0 IMP=1 ROT=0 SEQ=1
+Touch Read: 4
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.94 AY:-0.42 AZ:-0.36 | GX:8.8 GY:6.3 GZ:-11.9
+IMU Read Count: 27
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=969@40  maxA=18537@37  maxG=9546@40  | FF=1 IMP=1 ROT=1 SEQ=0
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:0.83 AY:-0.59 AZ:-0.28 | GX:-2.2 GY:0.6 GZ:-12.3
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=969@11  maxA=18537@8  maxG=9546@11  | FF=1 IMP=1 ROT=1 SEQ=0
+Touch Read: 3
+Touch Read: 3
+Touch Read: 4
+IMU -> AX:0.87 AY:-0.51 AZ:-0.29 | GX:-2.0 GY:2.1 GZ:5.7
+IMU Read Count: 26
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3567@0  maxA=4748@2  maxG=1800@1  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.85 AY:-0.54 AZ:-0.24 | GX:-1.8 GY:1.2 GZ:-2.6
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 33.04 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4065@10  maxA=4541@11  maxG=414@14  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.85 AY:-0.54 AZ:-0.24 | GX:-1.0 GY:0.5 GZ:-3.7
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.91 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4217@9  maxA=4292@10  maxG=134@3  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.84 AY:-0.56 AZ:-0.24 | GX:-1.4 GY:0.5 GZ:-6.8
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.91 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4230@58  maxA=4274@12  maxG=128@20  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.85 AY:-0.54 AZ:-0.24 | GX:-1.2 GY:0.7 GZ:-4.8
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.91 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4230@28  maxA=4266@32  maxG=137@30  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.83 AY:-0.57 AZ:-0.23 | GX:-1.1 GY:0.7 GZ:1.9
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.91 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4233@9  maxA=4266@32  maxG=137@1  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 3
+Touch Read: 3
+Touch Read: 4
+IMU -> AX:0.83 AY:-0.58 AZ:-0.24 | GX:-1.3 GY:0.1 GZ:-13.4
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.91 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4231@46  maxA=4270@47  maxG=220@59  | FF=0 IMP=0 ROT=0 SEQ=0
+ *  Terminal will be reused by tasks, press any key to close it. 
+
+-- fall 2: detected
+
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4525@52  maxA=4617@57  maxG=185@57  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+[ 68782][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+Touch Read: 4
+IMU -> AX:0.07 AY:0.11 AZ:-1.11 | GX:-1.0 GY:5.3 GZ:2.0
+IMU Read Count: 31
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.10 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 3
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4525@21  maxA=4617@26  maxG=568@34  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 3
+[ 70321][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+IMU -> AX:0.13 AY:0.18 AZ:-1.08 | GX:-4.4 GY:4.5 GZ:-0.3
+IMU Read Count: 16
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.10 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 3
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4483@50  maxA=4617@11  maxG=568@19  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:0.12 AY:0.15 AZ:-1.10 | GX:-4.8 GY:1.6 GZ:1.0
+IMU Read Count: 26
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.11 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4483@25  maxA=4648@49  maxG=381@11  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 5
+Touch Read: 4
+IMU -> AX:0.13 AY:0.76 AZ:-1.16 | GX:5.9 GY:1.9 GZ:-58.6
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.11 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4466@55  maxA=5719@59  maxG=966@59  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.12 AY:0.12 AZ:-1.06 | GX:43.6 GY:-18.7 GZ:122.7
+IMU Read Count: 25
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.11 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3196@46  maxA=12012@57  maxG=2158@59  | FF=0 IMP=1 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:-0.49 AY:-0.88 AZ:-0.78 | GX:80.1 GY:-66.5 GZ:-87.1
+IMU Read Count: 31
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.11 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3196@15  maxA=12012@26  maxG=3729@43  | FF=0 IMP=1 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:-0.78 AY:-0.88 AZ:-0.05 | GX:42.4 GY:-59.5 GZ:6.6
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 32.11 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3133@39  maxA=30323@47  maxG=6491@48  | FF=0 IMP=1 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:-1.47 AY:-0.69 AZ:-0.10 | GX:-5.3 GY:3.6 GZ:41.0
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.92 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=1328@49  maxA=37581@44  maxG=7602@43  | FF=1 IMP=1 ROT=1 SEQ=1
+[Fall] Pattern detected — entering Stage 4 (rest verification).
+[Fall] Pre-event baseline captured: (-0.28, -0.85, -0.45)
+Touch Read: 6
+Touch Read: 4
+[ 73672][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error -1
+Touch Read: 4
+IMU -> AX:-0.87 AY:-0.47 AZ:-0.07 | GX:-1.5 GY:0.8 GZ:-3.5
+IMU Read Count: 27
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.92 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Stage 4 — restful for 518ms, need 1000ms.
+Touch Read: 5
+Touch Read: 5
+IMU -> AX:-0.86 AY:-0.46 AZ:-0.08 | GX:-1.4 GY:0.7 GZ:-3.2
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.92 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Stage 4 PASSED — sustained rest 1025ms, orientation changed 47.6°.
+Touch Read: 4
+Touch Read: 5
+Touch Read: 5
+IMU -> AX:-0.86 AY:-0.46 AZ:-0.08 | GX:-1.4 GY:0.7 GZ:-3.0
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.92 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 19s remaining.
+Touch Read: 5
+Touch Read: 5
+[ 76460][E][Wire.cpp:499] requestFrom(): i2cWriteReadNonStop returned Error 263
+IMU -> AX:-0.86 AY:-0.46 AZ:-0.07 | GX:-1.4 GY:0.7 GZ:-2.9
+IMU Read Count: 31
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.92 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 17s remaining.
+Touch Read: 4
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:-0.87 AY:-0.46 AZ:-0.07 | GX:-1.4 GY:0.7 GZ:-2.9
+IMU Read Count: 26
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.73 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 17s remaining.
+Touch Read: 5
+Touch Read: 5
+IMU -> AX:-0.87 AY:-0.46 AZ:-0.07 | GX:-1.4 GY:0.7 GZ:-2.9
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.73 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 16s remaining.
+Touch Read: 4
+Touch Read: 5
+Touch Read: 5
+IMU -> AX:-0.87 AY:-0.46 AZ:-0.07 | GX:-1.4 GY:0.7 GZ:-3.0
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.73 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 0
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 16s remaining.
+Touch Read: 5
+Touch Read: 7
+
+-- fall 3: detected
+
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4425@9  maxA=5752@13  maxG=629@31  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 5
+IMU -> AX:0.08 AY:0.09 AZ:-1.10 | GX:-5.9 GY:-9.6 GZ:-13.7
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.40 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4509@46  maxA=4645@35  maxG=629@1  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 4
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:0.02 AY:0.14 AZ:-1.11 | GX:-5.1 GY:4.2 GZ:-2.3
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.40 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4509@18  maxA=4645@7  maxG=503@8  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 5
+Touch Read: 4
+IMU -> AX:0.03 AY:0.12 AZ:-1.11 | GX:-1.2 GY:-2.6 GZ:12.9
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4480@58  maxA=4620@48  maxG=413@51  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 5
+Touch Read: 3
+IMU -> AX:0.05 AY:0.09 AZ:-1.11 | GX:0.8 GY:4.5 GZ:2.7
+IMU Read Count: 26
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4480@32  maxA=4620@22  maxG=413@25  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.10 AY:0.13 AZ:-1.11 | GX:-4.5 GY:10.7 GZ:8.8
+IMU Read Count: 30
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4480@3  maxA=4607@36  maxG=300@55  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 3
+Touch Read: 4
+IMU -> AX:0.21 AY:0.08 AZ:-1.09 | GX:-2.7 GY:1.2 GZ:11.6
+IMU Read Count: 27
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4523@49  maxA=4611@55  maxG=603@37  | FF=0 IMP=0 ROT=0 SEQ=1
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.35 AY:0.52 AZ:-1.10 | GX:-26.2 GY:-7.1 GZ:-66.2
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 2
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=4375@51  maxA=5422@52  maxG=1174@59  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 3
+Touch Read: 4
+IMU -> AX:0.15 AY:0.15 AZ:-1.07 | GX:0.9 GY:4.7 GZ:-24.8
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.39 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3872@39  maxA=5422@23  maxG=1174@30  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 4
+IMU -> AX:-0.04 AY:0.38 AZ:-1.12 | GX:20.5 GY:-12.6 GZ:-126.2
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3609@51  maxA=6611@53  maxG=2107@59  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 3
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:-0.11 AY:-0.22 AZ:-1.08 | GX:27.7 GY:-60.8 GZ:-143.5
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3609@23  maxA=6611@25  maxG=3613@36  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.08 AY:-0.71 AZ:-0.79 | GX:87.9 GY:-28.3 GZ:-201.8
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=3406@47  maxA=6445@49  maxG=4260@53  | FF=0 IMP=0 ROT=0 SEQ=0
+Touch Read: 4
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:1.84 AY:0.44 AZ:0.67 | GX:40.4 GY:37.4 GZ:72.4
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] minA=1840@54  maxA=17065@58  maxG=9217@49  | FF=1 IMP=1 ROT=1 SEQ=1
+[Fall] Pattern detected — entering Stage 4 (rest verification).
+[Fall] Pre-event baseline captured: (-0.11, -0.17, -0.98)
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:1.02 AY:0.01 AZ:-0.22 | GX:-4.6 GY:2.1 GZ:-4.8
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Stage 4 — restful for 507ms, need 1000ms.
+Touch Read: 3
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:1.01 AY:-0.04 AZ:-0.32 | GX:-2.7 GY:-0.5 GZ:-7.1
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.48 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Stage 4 PASSED — sustained rest 1028ms, orientation changed 80.3°.
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:0.98 AY:-0.24 AZ:-0.32 | GX:3.2 GY:-0.6 GZ:14.3
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.51 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 19s remaining.
+Touch Read: 3
+Touch Read: 4
+Touch Read: 3
+IMU -> AX:0.96 AY:-0.35 AZ:-0.26 | GX:-0.5 GY:0.9 GZ:16.3
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.51 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 18s remaining.
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:0.89 AY:-0.46 AZ:-0.29 | GX:-0.8 GY:-0.6 GZ:2.1
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.51 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 18s remaining.
+Touch Read: 3
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.81 AY:-0.58 AZ:-0.28 | GX:-2.3 GY:0.7 GZ:16.6
+IMU Read Count: 29
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.51 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 17s remaining.
+Touch Read: 4
+Touch Read: 4
+IMU -> AX:0.85 AY:-0.58 AZ:-0.24 | GX:-2.3 GY:0.7 GZ:10.5
+IMU Read Count: 27
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.51 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdown — 17s remaining.
+Touch Read: 3
+Touch Read: 3
+Touch Read: 3
+IMU -> AX:0.76 AY:-0.65 AZ:-0.28 | GX:0.8 GY:1.0 GZ:-2.0
+IMU Read Count: 28
+Vitals -> HR: 0.0 BPM | SpO2: 0% | Temp: 31.44 C | Alarm Active: NO
+
+Bio Hub Status -> Confidence: 0% | Status Code: 1
+
+Gate 0 -> Armed: YES | On Body: NO | Time until Armed: 0ms
+[Fall] Countdow
